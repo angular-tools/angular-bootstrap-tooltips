@@ -1,0 +1,23 @@
+{
+  "name": "Angular directive for Bootstrap tips",
+  "version": "0.0.1",
+  "authors": [
+    "minutephp <dev@minutephp.com>"
+  ],
+  "description": "Support for bootstrap tooltips in AngularJS",
+  "main": "src/js/angular-bootstrap-tooltips.js",
+  "keywords": [
+    "angularjs",
+    "bootstrap",
+    "tooltips"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.minutephp.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
