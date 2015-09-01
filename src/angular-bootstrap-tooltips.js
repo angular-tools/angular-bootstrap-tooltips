@@ -7,6 +7,8 @@
                 restrict: 'A',
                 scope: {},
                 link: function (scope, element, attrs) {
+                    $(element).tooltip({container: 'body'});
+
                     $(element).hover(function () {
                         $(element).tooltip('show');
                     }, function () {
