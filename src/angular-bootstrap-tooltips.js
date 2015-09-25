@@ -5,9 +5,9 @@
         .directive('bsTip', [function () {
             return {
                 restrict: 'A',
-                scope: {},
+                scope: {bsTip: '@'},
                 link: function (scope, element, attrs) {
-                    $(element).tooltip({container: 'body'});
+                    $(element).tooltip({container: 'body', title: scope.bsTip, html:true});
 
                     $(element).hover(function () {
                         $(element).tooltip('show');
