@@ -1,3 +1,0 @@
-# angular-bootstrap-tooltips
-
-README
