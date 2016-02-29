@@ -9,7 +9,7 @@
                 link: function ($scope, element, attrs) {
                     $scope.redraw = function () {
                         if (!element.tooltip) {
-                            element.tooltip({container: 'body', title: $scope.bsTip, html: true});
+                            element.tooltip({container: 'body', title: $scope.bsTip, html: true, trigger: 'manual'});
                         }
 
                         element.attr('title', $scope.bsTip).tooltip('fixTitle').parent().find('.tooltip .tooltip-inner').html($scope.bsTip);
